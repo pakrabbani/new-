@@ -12,10 +12,13 @@
 }
 
 .container1{
-    border: 1px solid gold;
+    margin-top: 20px;
+     border: 1px solid #381328;
+   height: 100%;
 }
 .container1 >div > img
 {
+
     width: 100%;
     height: 100%;
     
@@ -23,23 +26,35 @@
 .container1 > div {
     
     width: 500px;
+    
+}
+
+.container2{
+    
+    display: flex;
+    height: 800px;
+    justify-content: space-between;
+  
+}
+.container2  section{
+    flex: 1;
+}
+.container2 section .handwriting{
+    flex: 2;
 }
 .text{
-    border: 1px solid palevioletred;
+    border: 2px solid palevioletred;
     background-image: url("pixabay5.png");
-    width: 400px;
-    height: 396px;
     margin-top: 10px;
-    display: inline-block;
+    border-radius: 350px;
+    
 }
 
 .rightText{
-     background-image: url("pixabay.png");
-    width: 400px;
-    height: 396px;
+    border: 2px solid palevioletred;
+     background-image: url("pixabay6.png");
     margin-top: 10px;
-    display: inline-block;
-    float: right;
+   border-radius: 350px;
 }
 .text div{
 
@@ -65,13 +80,13 @@ ul li a {
 }
 
 .slider{
-    
+     border: 1px solid #381328;
 }
 
 #header{
     height: 50px;
     background-color: #b01355 !important;
-
+    border: 1px solid #381328;
 }
 
 .form-inline{
@@ -109,4 +124,45 @@ color: black;
 .blank{
     height: 200px;
     position: fixed;
+}
+.handwriting{
+    font-family: 'Black Ops One', cursive;
+     background-image: url("pixabay1.png");
+    
+    background-repeat: no-repeat;
+
+    
+    margin-top: 35px;
+    padding-top: 339px;
+    text-align: center;
+    display: table;
+    width: 160px;
+    margin-right: 5px;
+}
+
+.btn-primary
+{
+    background-color:#b01355;
+    color: snow;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 16px; 
+}
+.btn-primary:hover{
+background-color: snow;
+color: #b01355;
+
+}
+
+body{
+    background-color: #381328;
+}
+
+.footer-area{
+    
+    width: 100%;
+  
+   background-image: none;
+border: 3px solid #785064;
+height: 392px;
 }
