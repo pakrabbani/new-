@@ -10,6 +10,10 @@
     flex-wrap: wrap;
     
 }
+
+.container1{
+    border: 1px solid gold;
+}
 .container1 >div > img
 {
     width: 100%;
@@ -20,14 +24,89 @@
     
     width: 500px;
 }
+.text{
+    border: 1px solid palevioletred;
+    background-image: url("pixabay5.png");
+    width: 400px;
+    height: 396px;
+    margin-top: 10px;
+    display: inline-block;
+}
 
+.rightText{
+     background-image: url("pixabay.png");
+    width: 400px;
+    height: 396px;
+    margin-top: 10px;
+    display: inline-block;
+    float: right;
+}
 .text div{
 
-    border:1px solid brown;
+
     height: 300px;
+    
     
 }
 .text .card-body{
     padding-top: 95px;
     padding-left: 450px;
+}
+.fa-glass-martini-alt{
+    color:whitesmoke;
+    font-size: 20px;
+}
+ul li a {
+
+     font-family: sans-serif;
+     font-style: italic;
+     
+     font-size: 17px !important;   
+}
+
+.slider{
+    
+}
+
+#header{
+    height: 50px;
+    background-color: #b01355 !important;
+
+}
+
+.form-inline{
+    margin-top: -5px;
+}
+span{
+    
+    border: 4px double antiquewhite;
+    border-radius: 73px;
+}
+
+a:hover{
+    color:  antiquewhite;
+    font-size: 18px !important;
+    text-decoration: none;
+}
+
+.btn-light{
+    margin-left: 11px;
+font-size: 12px;
+font-family: sans-serif;
+font-style: oblique;
+color: black;
+
+}
+.btn-light:hover{
+    color:#b01355; 
+}
+.form-inline input{
+font-size: 13px;
+font-family: sans-serif;
+font-style: italic;
+color: black;
+}
+.blank{
+    height: 200px;
+    position: fixed;
 }
